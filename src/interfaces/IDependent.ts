@@ -1,5 +1,3 @@
-import IPerson from "./IPerson";
+import { IPerson } from "./";
 
-interface IDependent extends IPerson {}
-
-export default IDependent;
+export interface IDependent extends IPerson {}

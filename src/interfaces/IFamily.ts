@@ -1,12 +1,8 @@
-import IDependent from "./IDependent";
-import ICandidate from "./ICandidate";
-import IPerson from "./IPerson";
+import { IPerson, ICandidate, IDependent } from "./";
 
-interface IFamily {
+export interface IFamily {
     income: number;
     dependents: Array<IDependent>;
     candidate: ICandidate;
     candidatePartner: IPerson;
 }
-
-export default IFamily;

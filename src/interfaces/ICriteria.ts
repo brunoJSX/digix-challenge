@@ -1,10 +1,10 @@
-import IFamily from "./IFamily";
+import { IFamily } from "./";
 
 interface IPassFunc<T> {
     (param: T): Boolean
 }
 
-export default interface ICriteria {
-    score: number;
+export interface ICriteria {
+    _score: number;
     pass: IPassFunc<IFamily>;
 }

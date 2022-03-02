@@ -1,7 +1,5 @@
-import IPerson from "./IPerson";
+import { IPerson } from "./";
 
-interface ICandidate extends IPerson {
+export interface ICandidate extends IPerson {
     score: number;
 }
-
-export default ICandidate;
