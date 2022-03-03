@@ -36,7 +36,7 @@ describe('ScoreThoseWhoHaveThreeOrMoreDependents', () => {
     expect(score).toEqual(3);
   })
 
-  it('must be able to return zero if the family has less than three dependents under the age of eighteen', async () => {
+  it('should be able to return zero if the family has less than three dependents under the age of eighteen', async () => {
     const family: IFamily = {
       income: 900,
       score: 0,
