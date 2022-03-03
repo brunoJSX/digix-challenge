@@ -36,14 +36,13 @@ Starting the application:
 ```shell
 yarn dev
 ```
+The application will start on `http://localhost:3333`
 
 Run tests:
 
 ```shell
 yarn test
 ```
-
-The application will start on `http://localhost:3333`
 
 &nbsp;
 
