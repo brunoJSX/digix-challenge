@@ -1,5 +1,5 @@
 import { IPerson, ICandidate, IDependent } from "./";
-import { IScoreable } from "../_/Filter/ScoreAnalizer";
+import { IScoreable } from "../scoreAnalizer/interfaces";
 
 export interface IFamily extends IScoreable {
   income: number;
